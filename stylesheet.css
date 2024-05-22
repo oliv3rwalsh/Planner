@@ -1,0 +1,139 @@
+body{
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+p{
+    margin: 0;
+}
+.menu{
+    width: 40%;
+    height: 100%;
+}   
+.display{
+    width: 60%;
+    height: 100%;
+}
+.container-r{
+    margin-right: 5vw;
+    margin-top: 10vh;
+    height: 80vh;
+}
+.container-l{
+    margin-left: 5vw;
+    margin-top: 10vh;
+    height: 80vh;
+}
+.title{
+    font-family: "mestiza-sans", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 40px;
+}
+.summary{
+    font-family: "seitu-variable",sans-serif;
+    font-variation-settings: 'wght' 400;
+    font-size: 18px;
+}
+.spacer-s{
+    height: 16px;
+}
+.priority-bar{
+    width: 55%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.priority-slab{
+    text-align: center;
+}
+.priority-slab-num{
+    font-family: "mestiza-sans", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 50px;
+}
+.priority-slab-title{
+    font-family: "seitu-variable",sans-serif;
+    font-variation-settings: 'wght' 300;
+    font-size: 14px;
+}
+#high-ps{
+    color: #CE2029;
+}
+#reg-ps{
+    color: #0070BB;
+}
+#low-ps{
+    color: #2E8B57;
+}
+.spacer-l{
+    height: 112px;
+}
+.spacer-m{
+    height: 48px;
+}
+.button{
+    width: 30%;
+    height: 40px;
+    background-color: rgba(51, 51, 51, 0.08);
+    border-radius: 10px;
+
+    font-family: "seitu-variable",sans-serif;
+    font-variation-settings: 'wght' 400;
+    font-size: 16px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.top{
+    height: 80%;
+}
+.bottom{
+    height: 20%;
+    display: flex;
+    align-items: flex-end;
+}
+.day-header{
+    font-family: "seitu-variable",sans-serif;
+    font-variation-settings: 'wght' 400;
+    font-size: 16px;
+    border-bottom: 1px solid black;
+    padding-bottom: 5px;
+    margin-top: 40px;
+}
+.priority-marker{
+    font-family: "seitu-variable",sans-serif;
+    font-variation-settings: 'wght' 700;
+    font-size: 12px;
+    border-radius: 5px;
+    width: 60px;
+    padding: 4px 0;
+    margin-right: 20px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.task{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+.task-title{
+    font-family: "seitu-variable",sans-serif;
+    font-variation-settings: 'wght' 300;
+    font-size: 16px;
+}
+.high{
+    background-color: #CE2029;
+}
+.reg{
+    background-color: #0070BB;
+}
+.low{
+    background-color: #2E8B57;
+}
